@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f2fafc;
+	padding-bottom: 50px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 45px;
+}
+
+.students {
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.students__1, .students__2, .students__3{
+	text-align: center;
+}
+
+.results {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.results button {
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: blue;
+	color: white;
+}
+
+.results button:focus {
+	outline: none;
+}
+
+#result__subject, #result__average, #result__info, #result__name, #result__best, #result__word {
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding-top: 30px;
+	width: 900px;
+	height: 100px;
+	background-color: #fad9d9;
+	border-radius: 20px;
+	font-size: 25px;
+
+}

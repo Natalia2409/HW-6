@@ -170,7 +170,7 @@ btnWord.addEventListener('click', () => {
 	let word = calculateWordLetters('антарктида');
 	let newArray = [];
 	for (const [key, value] of Object.entries(word)) {
-		newArray.push(`${key}: ${value}`);
+		newArray.push(` ${key}: ${value}`);
 	}
 	resultWord.innerHTML = `${newArray}`
 });
